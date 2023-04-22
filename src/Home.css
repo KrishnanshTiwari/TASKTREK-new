@@ -1,0 +1,15 @@
+.top{
+    margin-top: 12px;
+    background-color: rgb(61, 165, 54);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 14px;
+}
+.top h2{
+    color: #e4d9d9;
+    font-family: var(--title-font);
+}
+.top button{
+    padding: 1px;
+}

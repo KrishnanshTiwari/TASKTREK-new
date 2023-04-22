@@ -1,0 +1,53 @@
+.list {
+    width: 40vw;
+    height: 1.5rem;
+}
+
+.todo {
+    margin-top: 16px;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.todo input {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+#i {
+    font-size: 35px;
+}
+
+.button-complete {
+    color: #4fc138;
+    margin-right: 10px;
+}
+
+.button-edit {
+    color: #56cfff;
+    margin-right: 10px;
+}
+
+.button-delete {
+    color: rgb(255, 85, 66);
+}
