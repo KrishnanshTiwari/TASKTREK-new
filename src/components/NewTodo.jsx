@@ -39,11 +39,11 @@ export default function NewTodo() {
               className = "input_field"
               onChange={(e) => setTitle(e.target.value)}
             />
-          
-          </form>
-            <button>
+          <button>
               <FontAwesomeIcon icon={faPlus} className="icon" />
             </button>
+          </form>
+            
          
           
     </div>
